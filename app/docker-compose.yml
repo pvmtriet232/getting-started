@@ -24,4 +24,6 @@ services:
       MYSQL_DATABASE: todos
 
 volumes:
-  todo-mysql-data:
+  transmission-config:
+    external: true
+    name: todo-mysql-data
